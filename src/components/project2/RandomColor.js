@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const RandomColor = () => {
   const [typeOfColor, setTypeOfColor] = useState("hex");
   const [color, setColor] = useState("#000000");
-  const generateRandomhexColor = () => {
+  const generateRandomHexColor = () => {
     const hexValues = "0123456789ABCDEF";
     let hexColor = "#";
     for (let i = 0; i < 6; i++) {
@@ -21,7 +21,7 @@ const RandomColor = () => {
   const handleCreateRandomColor = () => {
     const newColor =
       typeOfColor === "hex"
-        ? generateRandomhexColor()
+        ? generateRandomHexColor()
         : generateRandomRgbColor();
     setColor(newColor);
   };
