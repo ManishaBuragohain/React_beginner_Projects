@@ -6,6 +6,7 @@ import LoadMore from "./components/project4/LoadMore";
 import QRCodeGenerator from "./components/project5/QRCodeGenerator";
 import Debounce from "./components/Debounce";
 import LightDarkMode from "./components/project1/LightDarkMode";
+import TabsParent from "./components/project6/TabsParent";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <LoadMore /> */}
       {/* <QRCodeGenerator /> */}
       {/* <Debounce /> */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+      <TabsParent />
     </div>
   );
 }
